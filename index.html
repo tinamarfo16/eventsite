@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Find Events</title>
+<title>Eventsite</title>
 <link rel="icon" href="images/favicon.gif" type="image/gif" sizes="16x16">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -19,8 +19,8 @@
 <!-- //font-awesome icons -->
 <!-- font -->
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!--<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'> -->
 <!-- //font -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
@@ -46,14 +46,13 @@ $(document).ready(function() {
 		<!--header-->
 		<div class="header">
 			<div class="logo">
-				<h1><a href="index.html"><img src="logo/fashionfirstgirls.png" alt=""/</a></h1>
+				<h1><a href="index.html"><img src="images/eventsite.png" alt=""/</a></h1>
 			</div>
 			<div class="top-nav">
 				<span class="menu"><img src="images/menu.png" alt=""/></span>
 				<ul>
 					<li><a class="active" href="index.html">HOME</a></li>
-					<li><a href="looks.html">EVENT FINDER</a></li>					
-					<li><a href="trending.html">TRENDING</a></li>
+					<li><a href="events.html">EVENT FINDER</a></li>		
 					<li><a href="contact.html">CONTACT</a></li>
 				</ul>
 				<!-- script-for-menu -->
@@ -75,27 +74,20 @@ $(document).ready(function() {
 						<ul class="rslides" id="slider4">
 							<li>
 								<div class="banner-info">
-									<h3>EXPLORE</h3>
-									<a href="contact.html">EXPLORE POPULAR PLACES</a>
+									<h3></h3>
+									<a href="events.html">EVENT FINDER</a>
 								</div>
 							</li>
-							<li>								
+							<!-- <li>								
 								<div class="banner-info">
-									<h3>ENJOY</h3>
-									<a href="looks.html"></a>
+									<h3></h3>
+									<a href="looks.html">TRENDING</a>
 								</div>
-							</li>
+							</li> -->
 							<li>
 								<div class="banner-info">
-									<h3>LOVE LONDON</h3>
-									<a href="menu.html">CONTACT</a>
-
-								</div>
-							</li>
-								<li>
-								<div class="banner-info">
-									<h3>JOIN NOW</h3>
-									<a href="menu.html">CONTACT</a>
+									<h3></h3>
+									<a href="contact.html">CONTACT</a>
 
 								</div>
 							</li>
@@ -136,19 +128,51 @@ $(document).ready(function() {
 	<div class="services">
 		<div class="container">
 			<div class="services-info">
-				<h3><img src="logo/histranger.png" alt=""/</a></h3>
-				<p>Welcome to Eventsite. A website especially designed for all you Explorers out there!
-				Here on Eventsite: We have the best events in London!.</p>
+				<!-- <h3><img src="images/solgan.png" alt=""/</a></h3> -->
+				<!--<h3>ABOUT US</h3> -->
+
+				<p>Welcome to Eventsite. A website especially designed for explores!
+				Our team believes in living life to the fullest hence why we bring you the BIGGEST and the HOTTEST events in london. Sign in now and get started! </p>
+				<hr>
+				<!-- Container (Our guide) -->
+	<section id="guide" class="bg-dark">
+		<div class="container-fluid text-center">
+			<div class="inner">
+				<br>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="#"><img src="images/map.png" alt="map" class="map"></a>
+						<h6><b>Where to go?</b></h6>
+						<p> Simply select the types of activities your looking for and we’ll search our database to see what’s out there.</p>
+					</div>
+					<div class="col-md-4">
+						<a href="#"><img src="images/backpack.png" alt="backpack" class="backpack"></a><a href="#"><img src="images/list.png" alt="list" class="list"></a>
+						<h6><b>What to pack?</b></h6>
+						<p>Everyone hates hidden cost... So we’ll let you give you a rough estimate of what you should bring. </p>
+					</div>
+					<div class="row">
+					<div class="col-md-4">
+						<a href="#"><img src="images/hiking.png" alt="hiking" class="hiking"></a>
+						<h6><b>On the road</b></h6>
+						<p>We’ll let you know the best routes to get to your events.</p>
+<br>
+				</div>
+				</div>
 			</div>
 		</div>
-		
+	</section>
+
+			</div>
+		</div>
+</div>
+	<!--	
 		<div class="services-grids">
 			<div id="owl-demo" class="owl-carousel owl-theme">
 					<div class="item">
 						<div class="services-grid-info">
 							<img src="images/s1.jpg" alt="" />
 							<div class="services-grid-caption"> 
-								<h4>Explore</h4>
+								<h4>AFROBEATS KARAOKE</h4>
 							</div>
 						</div>	
 					</div>
@@ -156,7 +180,7 @@ $(document).ready(function() {
 						<div class="services-grid-info">
 							<img src="images/s2.jpg" alt="" />
 							<div class="services-grid-caption"> 
-								<h4>Enjoy</h4>
+								<h4>HOLI FESTIVAL</h4>
 							</div>
 						</div>	
 					</div>
@@ -164,7 +188,7 @@ $(document).ready(function() {
 						<div class="services-grid-info">
 							<img src="images/s3.jpg" alt="" />
 							<div class="services-grid-caption"> 
-								<h4>Love London</h4>
+								<h4>NOTTING HILL CARNIVAL</h4>
 							</div>
 						</div>	
 					</div>
@@ -172,15 +196,15 @@ $(document).ready(function() {
 						<div class="services-grid-info">
 							<img src="images/s4.jpg" alt="" />
 							<div class="services-grid-caption"> 
-								<h4>Explore</h4>
+								<h4>SOHO COMEDY NIGHT</h4>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="services-grid-info">
-							<img src="images/s5.png" alt="" />
+							<img src="images/s5.jpg" alt="" />
 							<div class="services-grid-caption"> 
-								<h4>Enjoy</h4>
+								<h4>80'S ROLLA DISCO</h4>
 							</div>
 						</div>	
 					</div>
@@ -188,7 +212,7 @@ $(document).ready(function() {
 						<div class="services-grid-info">
 							<img src="images/s6.jpg" alt="" />
 							<div class="services-grid-caption"> 
-								<h4>Love London</h4>
+								<h4>OLD SCKOOL SUNDAYS</h4>
 							</div>
 						</div>	
 					</div>
@@ -196,21 +220,22 @@ $(document).ready(function() {
 						<div class="services-grid-info">
 							<img src="images/s7.jpg" alt="" />
 							<div class="services-grid-caption"> 
-								<h4>Explore</h4>
+								<h4>WIRELESS</h4>
 							</div>
 						</div>	
 					</div>
 					<div class="item">
 						<div class="services-grid-info">
-							<img src="images/s1.jpg" alt="" />
+							<img src="images/s8.jpg" alt="" />
 							<div class="services-grid-caption">
-								<h4>London</h4>
+								<h4>GLASTONBURY</h4>
 							</div>
 						</div>
 					</div>
 			</div>
 		</div>
 	</div>
+-->
 	<!-- //services -->
 	
 <!---<ADD PYTHON FORM HERE-->
@@ -258,7 +283,7 @@ $(document).ready(function() {
 					</div>
 					<div class="popular-grids">
 						<div class="popular-grid">
-							<a href="single.html"><img src="images/s5.png" alt="" /></a>
+							<a href="single.html"><img src="images/s5.jpg" alt="" /></a>
 						</div>
 						<div class="popular-grid">
 							<a href="single.html"><img src="images/s6.jpg" alt="" /></a>
@@ -276,6 +301,7 @@ $(document).ready(function() {
 						<input type="email" name="Email" placeholder="Email" required="">
 						<input type="submit" value="Subscribe">
 					</form>
+
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -288,7 +314,7 @@ $(document).ready(function() {
 			<p> ©Eventsite | Tina | Shaquilla | Sonia |</p>
 		</div>
 	</div>
-	<!-- //agileits-copyright -->
+	<!-- //copyright -->
 	<script src="js/owl.carousel.js"></script>  
 </body>	
 </html>
