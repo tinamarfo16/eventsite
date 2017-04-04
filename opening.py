@@ -11,7 +11,7 @@ app = Flask("MyApp")
 @app.route("/")
 def opening():
 
-        return render_template("events.html")
+        return render_template('events.html')
 
         return "All OK"
 
